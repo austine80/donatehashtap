@@ -86,7 +86,7 @@ file_put_contents("transactions/{$txn_id}.json", json_encode([
 log_to_console("INIT STK | Phone={$phone} | Amount={$amount} | Txn={$txn_id}");
 
 // ===== CALLBACK =====
-$callbackUrl = "https://solutionsbackend-uv0s.onrender.com/callback.php";
+$callbackUrl = "https://donatehashtap.onrender.com/callback.php";
 
 // ===== GET ACCESS TOKEN =====
 $credentials = base64_encode($consumerKey . ":" . $consumerSecret);
